@@ -11,6 +11,9 @@
 </head>
 <body>
 <!-- LO PRIMERO QUE ABRIMOS ES UN CONTAINER -->
+
+<!-- SECCIÓN DEL HEADER -->
+
 <div class="header">
     <div class="headerEncabezado">
         <p>Para consultas te redirigimos a nuestro formulario CLICK AQUÍ!</p>
@@ -30,12 +33,122 @@
     </div>
 </div>
    
-<!-- PRIMERA SECCION A MODO DE EJEMPLO INICIO-->
-<div class="row">
-    <div class="col-lg-12 ">
-        <h1>inicio</h1>
+<!-- SECCIÓN DEL INICIO -->
+
+<div class="boxInicio">
+
+  <div class="divImg">
+    <h1 class="h1Inicio"> Cámara de Turismo, Comercio, Industria y Producción de San Carlos.</h1>
+    <p class="pInicio">Promotores del crecimiento y regulación del sector turístico en el area de San Carlos</p>
+  </div>
+
+  <div class="divCarrusel container">
+    <p>Nuestros asociados</p>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/imgUltraSlim.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/imgUltraSlim.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/imgUltraSlim.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- SECCIÓN DE SERVICIOS -->
+
+<div class="boxServicios container">
+
+    <p>Nuestros Servicios</p>
+    <p>Capacitaciones, talleres, créditos, etc.</p>
+
+    <div class="boxArticulosServicios">
+
+        <article class="card mb-3 articuloServicios" style="max-width: 80rem;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/imgSlim.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body divCard">
+                  <h5 class="card-title">Capacitaciones</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+        </article>
+
+        <article class="card mb-3 articuloServicios" style="max-width: 80rem;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/imgSlim.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body divCard">
+                  <h5 class="card-title">Asesoramiento</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+        </article>
+
+        <article class="card mb-3 articuloServicios" style="max-width: 80rem;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/imgSlim.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body divCard">
+                  <h5 class="card-title">Contable - Legal</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+        </article>
+
+        <article class="card mb-3 articuloServicios" style="max-width: 80rem;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/imgSlim.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body divCard">
+                  <h5 class="card-title">Idiomas</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+        </article>
+
+        <article class="card mb-3 articuloServicios" style="max-width: 80rem;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/imgSlim.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body divCard">
+                  <h5 class="card-title">Talleres</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+        </article>
+
+        <article class="card mb-3 articuloServicios" style="max-width: 80rem;">
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </article>
+
     </div>
 </div>
+
 
 <!-- SEGUNDA SECCION A MODO DE EJEMPLO NUESTROS SERVICIOS-->
 <div class="row">
@@ -152,7 +265,7 @@
     </main>
 
     <!-- NUEVA ROW -->
-    <footer class="row bg-principal mt-5 p-4 justify-content-center">
+    <footer class="row bg-principal mt-5 p-4 justify-content-center footerStyle">
         <div class="col-lg-3 ">
             <img src="img/logo.png" alt="logo" class="img-fluid rounded float-start" style="margin-top: 20px;">
         </div>
@@ -190,6 +303,8 @@
     </footer>
 
 </div>
+
+
     <!-- LINK JS BOOTSTRAP -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
