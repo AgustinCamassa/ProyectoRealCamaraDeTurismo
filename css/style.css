@@ -8,7 +8,7 @@ a {
 
 }
 
-/* --- SECCIÓN DEL HEADER --- */
+/* ====== SECCIÓN DEL HEADER ====== */
 
 .header {}
 
@@ -57,7 +57,7 @@ a {
 .liImgNavbar {}
 
 
-/* --- SECCIÓN DEL INICIO --- */
+/* ====== SECCIÓN DEL INICIO ====== */
 
 .boxInicio {}
 
@@ -88,7 +88,7 @@ a {
 }
 
 
-/* --- SECCIÓN DE SERVICIOS --- */
+/* ====== SECCIÓN DE SERVICIOS ====== */
 
 .boxServicios {
   margin: 4rem;
@@ -124,3 +124,8 @@ a {
 .footerStyle {
   background-color: gray;
 }
+
+
+/* =================================== */
+/* ====== DIVISIÓN DEL PROYECTO ====== */
+/* =================================== */
