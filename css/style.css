@@ -97,6 +97,17 @@ font-weight:600;
 /* ====== SECCIÓN DE SERVICIOS ====== */
 
 .boxServicios {
+  display: grid;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.boxArticulosServicios {
+  display: grid;
+  align-items: center;
+}
+
+.boxServicios {
   margin: 4rem;
 }
 
@@ -127,14 +138,17 @@ font-weight:600;
 
 /* Cards */
 
-.articuloServicios { 
+.mensajeServ { 
   display: flex;
   justify-content: center;
   align-items: center;
 
   border: solid black 1px;
-  border-radius: 1rem;
-  padding: 2rem;
+  border-radius: 2rem;
+  padding: 4rem 2rem;
+  background-color: rgba(255, 184, 4, 1);
+  max-height: 5rem;
+  max-width: 60rem;
 }
 
 .card {
